@@ -25,12 +25,11 @@ main {
     float: left;
 }
 .topnav li a:hover {
-    background-color: #457b9d;
+    background-color: #e63946;
     color: #f1faee;
 }
 .active {
-    background-color: #e63946;
-    color: #f1faee;
+    background-color: #8ACED0;
 }
 .topnav li a {
     display: block;
