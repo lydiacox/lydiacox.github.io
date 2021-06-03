@@ -1,14 +1,39 @@
 body {
     background-color: #f1faee;
-    color: #1d3557;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #1d3557; 
+    font-family: 'Lato', Geneva, Tahoma, sans-serif;
     font-size: 16px;
     margin-top: 60px;
+    padding: 20px;
+}
+img {
+    width: 400px;
+}
+footer {
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+    height: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+html {
+    box-sizing: border-box;
+}
+header {
+    padding: 50px;
+    text-align: center;
+    background-color: #1D3557;
+    color: #F1FAEE;
+    font-size: 40px;
 }
 main {
     display: flex;
     flex-direction: column;
+    margin: auto;
+    width: 960px;
 }
+/* Navigation menu */
 .topnav{
     position: fixed;
     top: 0px;
@@ -28,7 +53,7 @@ main {
     background-color: #e63946;
     color: #f1faee;
 }
-.active {
+.topnav a.active {
     background-color: #8ACED0;
 }
 .topnav li a {
@@ -37,15 +62,31 @@ main {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+/* End navigation menu */
+/* Blog */
+.leftcolumn {
+    float: left;
+    width: 75%;
 }
-img {
-    width: 400px;
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
 }
-footer {
-    font-size: 12px;
-    text-align: center;
-    width: 100%;
-    height: 20px;
-    margin-top: auto;
-    margin-bottom: auto;
+.card   {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
 }
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn { 
+      width: 100%;
+      padding: 0;
+/* End Blog */
+
+/* Footer */
