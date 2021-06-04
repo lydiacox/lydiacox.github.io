@@ -1,13 +1,13 @@
+/* Default styling suited for small mobile phones, e.g. iPhone 5 */
 body {
     background-color: #f1faee;
-    color: #1d3557; 
+    color: #1d3557;
     font-family: 'Lato', Geneva, Tahoma, sans-serif;
     font-size: 16px;
-    margin-top: 60px;
-    padding: 20px;
+    margin: 0;
 }
 img {
-    max-width: 100%;
+    width: 80vw;
     height: auto;
 }
 footer {
@@ -22,16 +22,39 @@ html {
     box-sizing: border-box;
 }
 header {
-    padding: 50px;
+    padding: 10px;
     text-align: center;
     background-color: #1D3557;
     color: #F1FAEE;
-    font-size: 40px;
+    font-size: 20px;
+    width: 100%;
 }
 main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 1.6;
     margin: auto;
-    width: 960px;
+    width: 80vw;
 }
+a:hover{
+    background-color: #1D3557;
+    color: #F1FAEE;
+}
+.button {
+    background-color: #a8dadc;
+    border-radius: 4px;
+    border: none;
+    color: #1d3557;
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px;
+    min-width: 200px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+/* Topnav sized for small mobile phones */
 .topnav {
     background-color: #a8dadc;
     overflow: hidden;
@@ -44,13 +67,14 @@ main {
     background-color: #A8DADC;
     color: #1d3557;
     font-size: 12px;
-    padding: 14px 16px;
+    padding: 8px;
     text-align: center;
     text-decoration: none;
+    transition-duration: 0.4s;
 }
 .topnav a:hover {
-    background-color: #8ACED0;
-    color: #1d3557;
+    background-color: #1d3557;
+    color: #f1faee;
 }
 .topnav a.active {
     background-color: #e63946;
@@ -66,28 +90,11 @@ main {
 }
 /* desktops */
 @media screen and (min-width: 992px) {
-    .topnav {
-        background-color: #a8dadc;
-        overflow: hidden;
-        position: fixed;
-        top: 0px;
-        width: 100%;
-    }
     .topnav a {
-        float: left;
-        background-color: #A8DADC;
-        color: #1d3557;
         font-size: 18px;
         padding: 14px 16px;
-        text-align: center;
-        text-decoration: none;
     }
-    .topnav a:hover {
-        background-color: #8ACED0;
-        color: #1d3557;
-    }
-    .topnav a.active {
-        background-color: #e63946;
-        color: #f1faee;
-    }
+}
+img {
+
 }
