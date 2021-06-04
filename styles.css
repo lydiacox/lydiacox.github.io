@@ -1,4 +1,7 @@
 /* Default styling suited for small mobile phones, e.g. iPhone 5 */
+html {
+    box-sizing: border-box;
+}
 body {
     background-color: #f1faee;
     color: #1d3557;
@@ -18,9 +21,6 @@ footer {
     margin-top: auto;
     margin-bottom: auto;
 }
-html {
-    box-sizing: border-box;
-}
 header {
     padding: 10px;
     text-align: center;
@@ -37,9 +37,12 @@ main {
     margin: auto;
     width: 80vw;
 }
-a:hover{
-    background-color: #1D3557;
-    color: #F1FAEE;
+a {
+    color: #457B9D;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }
 .button {
     background-color: #a8dadc;
@@ -54,7 +57,11 @@ a:hover{
     text-decoration: none;
     transition-duration: 0.4s;
 }
-/* Topnav sized for small mobile phones */
+.button:hover {
+    background-color: #e63946;
+    color: #F1FAEE;
+    text-decoration: none;
+}
 .topnav {
     background-color: #a8dadc;
     overflow: hidden;
@@ -73,11 +80,11 @@ a:hover{
     transition-duration: 0.4s;
 }
 .topnav a:hover {
-    background-color: #1d3557;
+    background-color: #e63946;
     color: #f1faee;
 }
 .topnav a.active {
-    background-color: #e63946;
+    background-color: #1d3557;
     color: #f1faee;
 }
 /* phones */
