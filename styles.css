@@ -7,7 +7,8 @@ body {
     padding: 20px;
 }
 img {
-    width: 400px;
+    max-width: 100%;
+    height: auto;
 }
 footer {
     font-size: 12px;
@@ -28,65 +29,65 @@ header {
     font-size: 40px;
 }
 main {
-    display: flex;
-    flex-direction: column;
     margin: auto;
     width: 960px;
 }
-/* Navigation menu */
-.topnav{
+.topnav {
+    background-color: #a8dadc;
+    overflow: hidden;
     position: fixed;
     top: 0px;
     width: 100%;
 }
-.topnav ul {
-    list-style-type: none;;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #a8dadc;
-}
-.topnav li {
+.topnav a {
     float: left;
+    background-color: #A8DADC;
+    color: #1d3557;
+    font-size: 12px;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
 }
-.topnav li a:hover {
+.topnav a:hover {
+    background-color: #8ACED0;
+    color: #1d3557;
+}
+.topnav a.active {
     background-color: #e63946;
     color: #f1faee;
 }
-.topnav a.active {
-    background-color: #8ACED0;
-}
-.topnav li a {
-    display: block;
-    color: #1d3557;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-/* End navigation menu */
-/* Blog */
-.leftcolumn {
-    float: left;
-    width: 75%;
-}
-.rightcolumn {
-    float: left;
-    width: 25%;
-    padding-left: 20px;
-}
-.card   {
-    background-color: white;
-    padding: 20px;
-    margin-top: 20px;
-}
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-@media screen and (max-width: 800px) {
-    .leftcolumn, .rightcolumn { 
-      width: 100%;
-      padding: 0;
-/* End Blog */
+/* phones */
+@media screen and (min-width: 600px) {
 
-/* Footer */
+}
+/* tablets */
+@media screen and (min-width: 768px) {
+
+}
+/* desktops */
+@media screen and (min-width: 992px) {
+    .topnav {
+        background-color: #a8dadc;
+        overflow: hidden;
+        position: fixed;
+        top: 0px;
+        width: 100%;
+    }
+    .topnav a {
+        float: left;
+        background-color: #A8DADC;
+        color: #1d3557;
+        font-size: 18px;
+        padding: 14px 16px;
+        text-align: center;
+        text-decoration: none;
+    }
+    .topnav a:hover {
+        background-color: #8ACED0;
+        color: #1d3557;
+    }
+    .topnav a.active {
+        background-color: #e63946;
+        color: #f1faee;
+    }
+}
