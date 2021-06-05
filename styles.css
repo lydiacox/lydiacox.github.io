@@ -11,6 +11,7 @@ body {
 }
 img {
     width: 80vw;
+    max-width: 500px;
     height: auto;
 }
 footer {
@@ -34,7 +35,7 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     line-height: 1.6;
-    margin: auto;
+    margin: 20px;
     width: 80vw;
 }
 a {
@@ -43,6 +44,9 @@ a {
 }
 a:hover {
     text-decoration: underline;
+}
+a:focus {
+    outline: 1px dashed #e63946;
 }
 .button {
     background-color: #a8dadc;
@@ -65,7 +69,8 @@ a:hover {
 .topnav {
     background-color: #a8dadc;
     overflow: hidden;
-    position: fixed;
+    position: -webkit-sticky;
+    position: sticky;
     top: 0px;
     width: 100%;
 }
@@ -74,7 +79,7 @@ a:hover {
     background-color: #A8DADC;
     color: #1d3557;
     font-size: 12px;
-    padding: 8px;
+    padding: 8px 10px;
     text-align: center;
     text-decoration: none;
     transition-duration: 0.4s;
@@ -88,20 +93,22 @@ a:hover {
     color: #f1faee;
 }
 /* phones */
-@media screen and (min-width: 600px) {
-
+@media screen and (min-width: 576px) {
+    .topnav a {
+        font-size: 18px;
+        padding: 14px 16px;
 }
 /* tablets */
 @media screen and (min-width: 768px) {
-
-}
-/* desktops */
-@media screen and (min-width: 992px) {
     .topnav a {
         font-size: 18px;
         padding: 14px 16px;
     }
 }
-img {
-
+/* desktops */
+@media screen and (min-width: 992px) {
+    .topnav a {
+        font-size: 24px;
+        padding: 20px 22px;
+    }
 }
