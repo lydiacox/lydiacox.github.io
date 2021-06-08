@@ -26,6 +26,7 @@ I wanted to select a clean colour palette, with the highlight colour to match th
 
 ## Target Audience 
 My target audience is potential employers looking to engage a dev or IT professional. They will already possess a high digital literacy and have high expectations of professionalism.
+
 ## Tech Stack (e.g. html, css, deployment platform, etc)
 * HTML
 * CSS
