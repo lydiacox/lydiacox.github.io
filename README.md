@@ -1,6 +1,7 @@
 # Lydia Cox T1A2
 
 https://lydiacox.github.io
+
 https://github.com/lydiacox/lydiacox.github.io
 
 ## Description of website
@@ -21,8 +22,10 @@ I wanted to select a clean colour palette, with the highlight colour to match th
 * Dark blue #1D3557
 
 ## Sitemap
+[Sitemap](./docs/sitemap.pdf) 
 
 ## Screenshots
+
 
 ## Target Audience 
 My target audience is potential employers looking to engage a dev or IT professional. They will already possess a high digital literacy and have high expectations of professionalism.
