@@ -56,6 +56,9 @@ a {
     color: #457B9D;
     text-decoration: none;
 }
+li {
+    max-width: 800px;
+}
 #lydia {
     justify-content: flex-start;
 }
@@ -160,23 +163,23 @@ button:hover {
 }
 /* tablets */
 @media screen and (min-width: 760px) {
-    .topnav a {
-        font-size: 18px;
-        padding: 14px 16px;
-    }
-    .leftcolumn {
-        float: left;
-        width: 75%;
-    }
-    .rightcolumn {
-        float: left;
-        width: 25%;
-        padding-left: 20px;
-    }
-    #lydia {
-        display: flex;
-        flex-direction: row;
-    }
+.topnav a {
+    font-size: 18px;
+    padding: 14px 16px;
+}
+.leftcolumn {
+    float: left;
+    width: 70%;
+}
+.rightcolumn {
+    float: left;
+    width: 30%;
+    padding-left: 20px;
+}
+#lydia {
+    display: flex;
+    flex-direction: row;
+}
 /* tablet grid. While I did not utilise all of these sizing options, it will give me a great deal of flexibility as I continue to edit the website */
     .col-s-1 {width: 8.33%;}
     .col-s-2 {width: 16.66%;}
@@ -193,20 +196,10 @@ button:hover {
 }
 /* desktops */
 @media screen and (min-width: 992px) {
-    .topnav a {
-        font-size: 24px;
-        padding: 20px 22px;
-    }
-/* desktop blog page */
-    .leftcolumn {
-        float: left;
-        width: 70%;
-    }
-    .rightcolumn {
-        float: left;
-        width: 30%;
-        padding-left: 20px;
-    }
+.topnav a {
+    font-size: 24px;
+    padding: 20px 22px;
+}
 /* desktop grid */
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
