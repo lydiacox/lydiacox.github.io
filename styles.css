@@ -140,6 +140,7 @@ button:hover {
     border-width: 1px;
     margin: 20px;
     padding: 20px;
+    max-width: 850px;
 }
 .card img {
     width: 100%;
@@ -147,7 +148,6 @@ button:hover {
 .leftcolumn, .rightcolumn {   
     width: 100%;
     padding: 0;
-  }
 }
 .row:after {
     content: "";

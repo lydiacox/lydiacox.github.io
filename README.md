@@ -5,7 +5,7 @@ https://lydiacox.github.io
 https://github.com/lydiacox/lydiacox.github.io
 
 ## Description of website
-This is a website to showcase my abilities as a Web Developer/DevOps Engineer.
+This is a website all about me, showcasing my abilities as a Web Developer.
 
 ### Purpose, functionality/features
 I chose the Google font Lato for it accessability to dyslexic readers, downloading the font family to my files, rather than linking to Google, to prevent issues with the SRI. I also increased the line spacing to 1.6 for better readability.
