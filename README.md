@@ -7,12 +7,14 @@ https://github.com/lydiacox/lydiacox.github.io
 ## Description of website
 This is a website all about me, showcasing my abilities as a Web Developer.
 
-### Purpose, functionality/features
+## Purpose, functionality/features
+Having worked in marketing for many years, I had to create a website with a UX that was functional and intutive, and a UI that was aesthetically pleasing.
+
 I chose the Google font Lato for it accessability to dyslexic readers, downloading the font family to my files, rather than linking to Google, to prevent issues with the SRI. I also increased the line spacing to 1.6 for better readability.
 
 I added descriptive alt texts to images, including the emotions of the photo subjects, where possible.
 
-I wanted to select a clean colour palette, with the highlight colour to match the shade of red in my dress. As red text/background can be difficult to read, I only used this colour sparingly. It appears when hovering over a button or selection in the nav menu, as an outline around blog posts, and as a focus outline for site visitors using their keyboard to navigate the site.
+I wanted to select a clean colour palette, with an eye-catching highlight colour. I decided to try to match the shade of red in my dress. As red text/background can be difficult to read, I only used this colour sparingly. It appears when hovering over a button or selection in the nav menu, as an outline around blog posts, and as a focus outline for site visitors using their keyboard to navigate the site.
 
 ### Colors used:
 * Raspberry #E63946
@@ -21,8 +23,10 @@ I wanted to select a clean colour palette, with the highlight colour to match th
 * Mid-blue #457B9D
 * Dark blue #1D3557
 
+
+
 ## Sitemap
-![sitemap](docs/sitemap.pdf "Sitemap")
+![sitemap](docs/sitemap-diagram.png "Sitemap")
 
 ## Screenshots
 ### Homepage
