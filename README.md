@@ -25,7 +25,8 @@ I wanted to select a clean colour palette, with the highlight colour to match th
 ![sitemap](docs/sitemap.pdf "Sitemap")
 
 ## Screenshots
-
+### Homepage
+![hompage-desktop](docs/screenshots/01-home.png "Desktop")
 
 ## Target Audience 
 My target audience is potential employers looking to engage a dev or IT professional. They will already possess a high digital literacy and have high expectations of professionalism.
