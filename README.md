@@ -22,7 +22,7 @@ I wanted to select a clean colour palette, with the highlight colour to match th
 * Dark blue #1D3557
 
 ## Sitemap
-[Sitemap](./docs/sitemap.pdf) 
+![sitemap](docs/sitemap.pdf "Sitemap")
 
 ## Screenshots
 
